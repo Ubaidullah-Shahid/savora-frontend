@@ -2,7 +2,7 @@ import axios from "axios";
 
 // ─── Axios instance — baseURL points to your Express backend ─────────────
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000",
+  baseURL: "https://savora-backend-production.up.railway.app",
   headers: { "Content-Type": "application/json" },
 });
 
